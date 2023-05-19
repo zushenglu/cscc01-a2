@@ -1,5 +1,5 @@
 ## Project
-PlayBook - A Social Media for Gamers
+PlayBook - A Social Media Platform for Gamers
 
 
 ## Team Members
