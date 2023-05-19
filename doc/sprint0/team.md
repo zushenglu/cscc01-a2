@@ -11,5 +11,5 @@ PlayBook - A Social Media Platform for Gamers
 | Magen Chen    | chenmage    | 1005951043 | magen.chen@mail.utoronto.ca        | Discord               | @MagenChen     |
 | Monte Ho      | holok10     | 1005384674 | lokhang.ho@mail.utoronto.ca        | Discord               | @MonteHo       |
 | Kendrick Joo  | jookendr    | 1005519360 | kendrick.joo@mail.utoronto.ca      | Discord               | @KendrickJoo   |
-| Zusheng Lu    | luzushen    | 1007764279 |  zushenglu1809@gmail.com           | Discord               | @ZushengLu     |
+| Zusheng Lu    | luzushen    | 1007764279 |  zusheng.lu@mail.utoronto.ca           | Discord               | @ZushengLu     |
 | Kevin Tian    | tiankev2    | 1007917925 | kevinshao.tian@mail.utoronto.ca    | Discord               | @KevinTian    | 
