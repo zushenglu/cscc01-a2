@@ -1,31 +1,44 @@
-import { Router } from "express";
-import LfgPost from "../models/LfgPost.js";
-
-const router = Router();
-
-//@route   GET api/lfgpost
-//@desc    [DESCRIPTION OF WHAT ROUTE DOES]
-//@access  [WHETHER PUBLIC OR PRIVATE i.e. LOGGED IN USER CAN ACCESS IT OR NOT]
-router.get("/", (req, res) => {});
-
-//@route   GET api/lfgpost/:id
-//@desc    [DESCRIPTION OF WHAT ROUTE DOES]
-//@access  [WHETHER PUBLIC OR PRIVATE i.e. LOGGED IN USER CAN ACCESS IT OR NOT]
-router.get("/:id", (req, res) => {});
+import asyncHandler from "express-async-handler";
 
 //@route  POST api/lfgpost
 //@desc   [DESCRIPTION OF WHAT ROUTE DOES]
 //@access [WHETHER PUBLIC OR PRIVATE i.e. LOGGED IN USER CAN ACCESS IT OR NOT]
-router.post("/", (req, res) => {});
+const createLFGPost = asyncHandler(async (req, res) => {
+    
+});
+
+//@route   GET api/lfgpost
+//@desc    [DESCRIPTION OF WHAT ROUTE DOES]
+//@access  [WHETHER PUBLIC OR PRIVATE i.e. LOGGED IN USER CAN ACCESS IT OR NOT]
+const getLFGPosts = asyncHandler(async (req, res) => {
+
+});
+
+//@route   GET api/lfgpost/:id
+//@desc    [DESCRIPTION OF WHAT ROUTE DOES]
+//@access  [WHETHER PUBLIC OR PRIVATE i.e. LOGGED IN USER CAN ACCESS IT OR NOT]
+const getLFGPost = asyncHandler(async (req, res) => {
+
+});
 
 //@route PUT api/lfgpost/:id
 //@desc  [DESCRIPTION OF WHAT ROUTE DOES]
 //@access [WHETHER PUBLIC OR PRIVATE i.e. LOGGED IN USER CAN ACCESS IT OR NOT]
-router.put("/:id", (req, res) => {});
+const updateLFGPost = asyncHandler(async (req, res) => {
+    
+});
 
 //@route DELETE api/lfgpost/:id
 //@desc  [DESCRIPTION OF WHAT ROUTE DOES]
 //@access [WHETHER PUBLIC OR PRIVATE i.e. LOGGED IN USER CAN ACCESS IT OR NOT]
-router.delete("/:id", (req, res) => {});
+const deleteLFGPost = asyncHandler(async (req, res) => {
+    
+});
 
-export default router;
+export {
+    createLFGPost,
+    getLFGPosts,
+    getLFGPost,
+    updateLFGPost,
+    deleteLFGPost
+};

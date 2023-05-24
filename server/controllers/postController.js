@@ -1,31 +1,44 @@
-import { Router } from "express";
-import Post from "../models/Post.js";
-
-const router = Router();
-
-//@route   GET api/posts
-//@desc    [DESCRIPTION OF WHAT ROUTE DOES]
-//@access  [WHETHER PUBLIC OR PRIVATE i.e. LOGGED IN USER CAN ACCESS IT OR NOT]
-router.get("/", (req, res) => {});
-
-//@route   GET api/posts/:id
-//@desc    [DESCRIPTION OF WHAT ROUTE DOES]
-//@access  [WHETHER PUBLIC OR PRIVATE i.e. LOGGED IN USER CAN ACCESS IT OR NOT]
-router.get("/:id", (req, res) => {});
+import asyncHandler from "express-async-handler";
 
 //@route  POST api/posts
 //@desc   [DESCRIPTION OF WHAT ROUTE DOES]
 //@access [WHETHER PUBLIC OR PRIVATE i.e. LOGGED IN USER CAN ACCESS IT OR NOT]
-router.post("/", (req, res) => {});
+const createPost = asyncHandler(async (req, res) => {
+    
+});
+
+//@route   GET api/posts
+//@desc    [DESCRIPTION OF WHAT ROUTE DOES]
+//@access  [WHETHER PUBLIC OR PRIVATE i.e. LOGGED IN USER CAN ACCESS IT OR NOT]
+const getPosts = asyncHandler(async (req, res) => {
+
+});
+
+//@route   GET api/posts/:id
+//@desc    [DESCRIPTION OF WHAT ROUTE DOES]
+//@access  [WHETHER PUBLIC OR PRIVATE i.e. LOGGED IN USER CAN ACCESS IT OR NOT]
+const getPost = asyncHandler(async (req, res) => {
+
+});
 
 //@route PUT api/posts/:id
 //@desc  [DESCRIPTION OF WHAT ROUTE DOES]
 //@access [WHETHER PUBLIC OR PRIVATE i.e. LOGGED IN USER CAN ACCESS IT OR NOT]
-router.put("/:id", (req, res) => {});
+const updatePost = asyncHandler(async (req, res) => {
+    
+});
 
 //@route DELETE api/posts/:id
 //@desc  [DESCRIPTION OF WHAT ROUTE DOES]
 //@access [WHETHER PUBLIC OR PRIVATE i.e. LOGGED IN USER CAN ACCESS IT OR NOT]
-router.delete("/:id", (req, res) => {});
+const deletePost = asyncHandler(async (req, res) => {
+    
+});
 
-export default router;
+export {
+    createPost,
+    getPosts,
+    getPost,
+    updatePost,
+    deletePost
+};
