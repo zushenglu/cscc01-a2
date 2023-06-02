@@ -12,11 +12,11 @@ Want to share your in-game achievements? Use gaming forums.
 
 Want to FIND new gamer friends? Good luck using social media!
 
-There is no SINGLE social networking platform that allows online multiplayer gamers to find new people to play with, to chat with them, and to share in-game achievements with their fellow gamers.
+There is no SINGLE social networking platform that caters its user experience towards online multiplayer gamers, and acts as a central hub for them to find new people to play with, to chat with, and to share in-game achievements with.
 
 ## The “What”
 
-Playbook is a one-stop shop solution for online multiplayer gamers. The platform allows gamers to share their in-game stats such as ranks, position, and play-style, and to allows them to find new people to play with based on those stats. Playbook also allows gamers to post pictures and clips of their in-game achievements.
+Playbook is a one-stop shop solution for online multiplayer gamers. The platform allows gamers to share their in-game stats such as ranks, position, and play-style, and streamlines the process of finding new people to play with based on the in-game information that truly matters for each game. Playbook also allows gamers to post pictures and clips of their in-game achievements.
 
 ## The “How”
 
