@@ -36,7 +36,7 @@
 - **Goal/Task 3**: Profile
     - Code is on github
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/2ed14639-e050-4f02-9eb9-e7c5538ae176/Untitled.png)
+![Untitled](![image](https://github.com/CSCC012023/final-project-s23-200-ok/assets/48000928/436c85a2-e657-4fc1-895b-1e0f78d983fc))
 
 ### **Goals and/or tasks that were planned but not met/completed:**
 
