@@ -31,12 +31,14 @@
 
 - **Goal/Task 1**: Registration
     - Code is on github
+    - JIRA ticket is complete
 - **Goal/Task 2**: Log in
     - Code is on github
+    - JIRA ticket is complete
 - **Goal/Task 3**: Profile
     - Code is on github
+    - JIRA ticket is complete
 
-![Untitled](![image](https://github.com/CSCC012023/final-project-s23-200-ok/assets/48000928/436c85a2-e657-4fc1-895b-1e0f78d983fc))
 
 ### **Goals and/or tasks that were planned but not met/completed:**
 
