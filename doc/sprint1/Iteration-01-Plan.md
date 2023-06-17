@@ -9,8 +9,7 @@
 
 - Designated Code Reviewers (to be changed per sprint):
     - Elham
-    - Kendrick
-    - Monte
+    - Amey
     - **Responsibilities**
         - Review (code) and approve pull requests
 - Developers:
