@@ -52,7 +52,5 @@
 2. Working code for the registration page so that the registration user story is complete
 3. Working code so that the 3 profile user stories above are complete
 4. Have a local demo running so that we can give a demo of the completed features
-5. JIRA screenshots
-    1. Sprint
-    2. Kanban
+5. Complete JIRA tickets
 6. Closed PRs so that the TA can view the code and any relevant comments
