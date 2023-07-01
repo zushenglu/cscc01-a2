@@ -186,7 +186,7 @@ Tracking on JIRA Total Mark: 19 / 20
     - 1 mark  = The majority of class names do not match the collaborator names or the responsibilities of the majority of the classes are not stated or are unclear
     - 0 marks = No CRC provided or the provided document does not match the CRC model
 
-    Your Mark: 0
+    Your Mark: 4
 
   - Software Architecture Diagram (max 4 marks)
     - 4 marks = The Architecture Diagram is present, it is formatted using proper graphic symbols, and it follows a known Architecture diagram.
@@ -200,7 +200,7 @@ Tracking on JIRA Total Mark: 19 / 20
 
     Your Mark: 4
 
-    System Design Total Mark: 5 / 10
+    System Design Total Mark: 9 / 10
 
 ## Sprint Demo (Max 14 marks) 
   - Attendance (max 2 marks)
@@ -236,4 +236,4 @@ Tracking on JIRA Total Mark: 19 / 20
 
 ## Total Mark
 
-80.5 / 93
+84.5 / 93
