@@ -5,7 +5,7 @@
 - ~~As a user interested in PlayBook,~~
     - ~~I want to register an account online,~~
     - ~~so that I can create a PlayBook account and start networking with fellow gamers.~~
-    - **~~GIVEN** the user is on the register page, **WHEN** they fill in their information, **THEN** a new account is created for them that they can log in to.~~
+    - ~~**GIVEN** the user is on the register page, **WHEN** they fill in their information, **THEN** a new account is created for them that they can log in to.~~
 - As a user interested in PlayBook,
     - I want my email to be verified during the registration process,
     - so that I can securely use it to reset my password in the future.
@@ -13,7 +13,7 @@
 - ~~As a PlayBook user,~~
     - ~~I want to log in, with my email and password~~
     - ~~so that I can access my PlayBook account.~~
-    - **~~GIVEN** the user is on the login page, **WHEN** type in a valid email address/username-password combination, **THEN** they are authenticated.****~~
+    - ~~**GIVEN** the user is on the login page, **WHEN** type in a valid email address/username-password combination, **THEN** they are authenticated.**~~**
 - As a PlayBook user,
     - I want to be able to change my password,
     - so that, in case I forget my password, I can recover my account via email.
