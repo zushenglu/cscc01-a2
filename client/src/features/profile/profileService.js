@@ -6,7 +6,7 @@ const API_URL = "/api/profile/";
 const createProfile = async (token) => {
   const config = {
     headers: {
-        Authorization: `Bearer ${token}`,
+      Authorization: `Bearer ${token}`,
     },
   };
 
@@ -19,7 +19,7 @@ const createProfile = async (token) => {
 const getProfile = async (token) => {
   const config = {
     headers: {
-        Authorization: `Bearer ${token}`,
+      Authorization: `Bearer ${token}`,
     },
   };
 
@@ -32,10 +32,10 @@ const getProfile = async (token) => {
 const linkValorant = async (profileId, valorantData, token) => {
   const config = {
     headers: {
-        Authorization: `Bearer ${token}`,
+      Authorization: `Bearer ${token}`,
     },
   };
-  
+
   const response = await axios.post(
     API_URL + profileId + "/games/valorant",
     valorantData,
@@ -48,7 +48,7 @@ const linkValorant = async (profileId, valorantData, token) => {
 const linkOverwatch = async (profileId, overwatchData, token) => {
   const config = {
     headers: {
-        Authorization: `Bearer ${token}`,
+      Authorization: `Bearer ${token}`,
     },
   };
 
@@ -64,7 +64,7 @@ const linkOverwatch = async (profileId, overwatchData, token) => {
 const updateProfile = async (profileData, token) => {
   const config = {
     headers: {
-        Authorization: `Bearer ${token}`,
+      Authorization: `Bearer ${token}`,
     },
   };
 
