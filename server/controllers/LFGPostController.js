@@ -2,6 +2,9 @@ import asyncHandler from "express-async-handler";
 import LFGPost from "../models/LFGPost.js";
 import LFGComment from "../models/LFGComment.js"
 
+// comment, we are editing to test for github action docker!
+// Hope this works
+
 //@route  POST api/lfgpost
 //@desc   Create a new LFG post
 //@access Private
