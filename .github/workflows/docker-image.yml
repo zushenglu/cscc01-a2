@@ -28,7 +28,8 @@ jobs:
       with:
         context: .
         push: true
-        tags: c01assign2kevzu/a2
+        dockerfile: Dockerfile
+        tags: c01assign2kevzu/a2:latest
       
     #- name: Build the Docker image
     #  run: docker build . --file Dockerfile --tag my-image-name:$(date +%s)
