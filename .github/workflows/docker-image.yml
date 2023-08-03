@@ -8,7 +8,7 @@ on:
 
 jobs:
 
-  build:
+  build_server:
     # give a name for building dokcer image + push
     name: Build Docker image and push to repositories
     runs-on: ubuntu-latest
@@ -22,14 +22,41 @@ jobs:
       with: 
         username: ${{ secrets.DOCKER_USERNAME}}
         password: ${{ secrets.DOCKER_PASSWORD}}
-      
-    - name: build + push
+
+    - name: Build and push server Docker image
       uses: docker/build-push-action@v4
       with:
-        context: .
+        context: ./server
+        file: ./server/Dockerfile
         push: true
-        dockerfile: Dockerfile
-        tags: c01assign2kevzu/a2:latest
+        tags: c01assign2kevzu/a2:backend
+      
+
+
+  build_client:
+    # give a name for building dokcer image + push
+    name: Build Docker image and push to repositories
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: checkout code
+      uses: actions/checkout@v3
+      
+    - name: docker hub login
+      uses: docker/login-action@v2
+      with: 
+        username: ${{ secrets.DOCKER_USERNAME}}
+        password: ${{ secrets.DOCKER_PASSWORD}}
+        - name: Build and push client Docker image
+      uses: docker/build-push-action@v2
+
+    - name: Build and push server Docker image
+      uses: docker/build-push-action@v4
+      with:
+        context: ./client
+        file: ./client/Dockerfile
+        push: true
+        tags: c01assign2kevzu/a2:frontend
       
     #- name: Build the Docker image
     #  run: docker build . --file Dockerfile --tag my-image-name:$(date +%s)
